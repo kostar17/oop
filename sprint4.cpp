@@ -12,7 +12,7 @@ int main() {
 		aa->put_out();
 		NofPackets[a] = aa->q.size();
 		xx << NofPackets[a] << endl;
-		Sleep(10);
+		Sleep(1000);
 		b += int(NofPackets[a]);
 		a++;
 		time++;
