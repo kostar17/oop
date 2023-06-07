@@ -31,7 +31,7 @@ int main() {
 		NofPackets[a] = queue.size();
 		xx << NofPackets[a] << endl;
 
-		Sleep(10);
+		Sleep(1000);
 		b += int(NofPackets[a]);
 		a++;
 		time++;
